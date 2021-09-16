@@ -1,0 +1,51 @@
+.videoCard{
+    width : 270px;
+    margin-bottom: 40px;
+    padding:20px;
+}
+
+
+.videoCard__thumbnail{
+    width: 300px;
+    height: 180px;
+}
+
+.videoCard__info{
+    display: flex;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+
+.videoCard__text{
+    margin-left: 15px;
+
+}
+
+.videoCard__text > h4{
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-overflow: ellipsis;
+    align-items: center;
+}
+
+.videoCard__text > p{
+    font-size: 14px;
+    color:gray;
+}
+
+.videoCard__avatar{
+    width: 40px;
+    height: 40px;
+}
+
+.ellipsis {
+    width:250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* 라인수 */
+    -webkit-box-orient: vertical;
+    word-wrap:break-word; 
+    line-height: 1.2em;
+    height: 3.6em;
+}
